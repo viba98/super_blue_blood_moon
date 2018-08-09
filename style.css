@@ -1,0 +1,78 @@
+body{
+  background: black;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-attachment: fixed;
+}
+
+@-webkit-keyframes rotateE {
+  from { transform: rotate(0);}
+  to { transform: rotate(360deg);}
+}
+
+@-moz-keyframes rotateE {
+  from { transform: rotate(0);}
+  to { transform: rotate(360deg);}
+}
+
+@-o-keyframes rotateE {
+  from { transform: rotate(0);}
+  to { transform: rotate(360deg);}
+}
+
+@keyframes rotateE {
+  from { transform: rotate(0);}
+  to { transform: rotate(360deg);}
+}
+
+#sunim{
+  width: 20vw;
+  top: 50%;
+  right: 50%;
+  padding: 30vh 40vw;;
+}
+
+#earth{
+  top: 50vh;
+}
+
+#earthmoon{
+  height: 500px;
+  width:700px;
+  border-radius: 50%;
+
+  top: 50%;
+  left: 50%;
+  margin-top: -700px;
+  margin-left: 400px;
+  -webkit-animation: rotateE 36s linear infinite;
+}
+
+#earth{
+  width: 50px;
+  top: 500px;
+  top: 50%;
+  margin-top: 200px;
+}
+
+#earthim{
+  width: 5vw;
+  top: 500px;
+  top: 50%;
+  margin-top: -40px;
+}
+
+#moonim{
+  width: 20px;
+
+}
+
+#moonorbit{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-left: -10px;
+  margin-top: -80px;
+  -webkit-animation: rotateE 2s linear infinite;
+}
